@@ -17,10 +17,10 @@ end
 
 collection = [1, 2, 3]
 
-my_all?(collection) do |1|
-  1 < 3
+my_all?(collection) do |i|
+  i < 3
 end
 
-my_all?(collection) do |1|
-  1 < 4
+my_all?(collection) do |i|
+  i < 4
 end
